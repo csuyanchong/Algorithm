@@ -6,16 +6,23 @@ namespace MySort
     {
         static void Main(string[] args)
         {
-            int[] arr = { 9, 6, 2, 5, 8 };
-            Display(arr);
+            //int[] arr = { 9, 6, 2, 5, 8 };
+            //Display(arr);
 
             //SelectSort(arr);
 
             //BubbleSort(arr);
             //InsertSort(arr);
             //Display(arr);
-            int maxNum = FindMaxNumber(arr, 0, arr.Length - 1);
-            Console.WriteLine(maxNum);
+
+            ////找最大数
+            //int maxNum = FindMaxNumber(arr, 0, arr.Length - 1);
+            //Console.WriteLine(maxNum);
+
+
+            int i = 5;
+            int left = i >> 1;
+            Console.WriteLine("left is: {0}", left);
             Console.ReadKey();
         }
         #region 一、简单排序
@@ -112,5 +119,39 @@ namespace MySort
             return Math.Max(maxLeft, maxRight);
         }
         #endregion
+
+        //public static void QuickSort(int[] arr, int L, int R)
+        //{
+        //    Random rd = new Random();
+        //    int i = rd.Next(L, R);
+        //    Swap(arr, i, R);
+        //    //分区,Lmin:相等区域的左侧索引,Rmin：相等区域的右侧索引。
+        //    int Lmin, Rmin;
+        //    Partition(arr, L, R, out Lmin, out Rmin);
+
+        //    //递归
+        //    QuickSort(arr, L, Lmin - 1);
+        //    QuickSort(arr, Rmin + 1, R);
+        //}
+        //public static void Partition(int[] arr, int L, int R, out int Lmin, out int Rmin)
+        //{
+        //    int less = L - 1;
+        //    int mass = R + 1;
+
+        //    for (int i = L; i <= mass; i++)
+        //    {
+        //        if (arr[i] < arr[R])
+        //        {
+        //            Swap(arr, i, --mass);
+        //        }
+        //        else if (arr[i] == arr[R])
+        //        {
+        //            i++;
+        //        }
+        //        else
+        //        {
+        //        }
+        //    }
+        //}
     }
 }

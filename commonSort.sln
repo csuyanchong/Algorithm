@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "commonSort", "commonSort\co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelecSort", "SelecSort\SelecSort.csproj", "{FC967F00-22A9-4BAC-BE07-12777F874DF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeBaseSort", "LeetCodeBaseSort\LeetCodeBaseSort.csproj", "{89DB686F-A175-4217-BEA6-889BEA92E351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC967F00-22A9-4BAC-BE07-12777F874DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC967F00-22A9-4BAC-BE07-12777F874DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC967F00-22A9-4BAC-BE07-12777F874DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DB686F-A175-4217-BEA6-889BEA92E351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DB686F-A175-4217-BEA6-889BEA92E351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DB686F-A175-4217-BEA6-889BEA92E351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DB686F-A175-4217-BEA6-889BEA92E351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
